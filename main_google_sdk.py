@@ -67,4 +67,4 @@ if __name__ == "__main__":
                 parts = reply.split("CONFIRMED:")[1].split(",")
                 mock_lead_capture(parts[0].strip(" []"), parts[1].strip(), parts[2].strip(" []"))
         except Exception as e:
-            print(f"❌ Error: {e}")
+            print(f" Error: {e}")
