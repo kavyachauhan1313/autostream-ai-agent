@@ -1,0 +1,22 @@
+{
+    "pricing": {
+        "basic": {
+            "cost": "$29/mo",
+            "limit": "10 videos",
+            "res": "720p"
+        },
+        "pro": {
+            "cost": "$79/mo",
+            "limit": "Unlimited",
+            "res": "4K",
+            "features": [
+                "AI captions",
+                "24/7 support"
+            ]
+        }
+    },
+    "policies": {
+        "refund": "7-day limit",
+        "support": "24/7 support is Pro-only"
+    }
+}
